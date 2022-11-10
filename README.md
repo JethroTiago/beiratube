@@ -3,7 +3,7 @@ Versão adaptada do canal Beira da Aventura do youtube, desenvolvido durante a I
 
 ### Deploy
 
--- soon --
+http://beiratube.vercel.app/
 
 ### Visualização do Projeto
 
