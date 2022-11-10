@@ -9,7 +9,7 @@ function HomePage() {
     const estiloDaHomePage = { 
         //backgroundColor: "red"
     };
-    const [valorDoFiltro, setValorDoFiltro] = React.useState("Duty");
+    const [valorDoFiltro, setValorDoFiltro] = React.useState("");
     
     return (
         <>
@@ -42,7 +42,6 @@ function HomePage() {
         border-radius: 50%;
     }
     .user-info {
-        margin-top: 50px;
         display: flex;
         align-items: center;
         width: 100%;
@@ -50,11 +49,16 @@ function HomePage() {
         gap: 18px;
     }
   `;
+  const StyledBanner = styled.div`
+    background-color: blue;
+    background-image: url(${({ bg }) => bg});
+    /* background-image: url(${config.bg}); */
+    height: 230px;
+  `
   function Header() {
     return (
         <StyledHeader>
-            {/*<img src="banner"/> */}
-
+            <StyledBanner bg={config.bg} />
             <section className="user-info">
                 <img src={`https://github.com/${config.github}.png`} />
                 <div>
@@ -79,10 +83,10 @@ function HomePage() {
         <StyledTimeline>
             {playlistNames.map((playlistName) => {
                 const videos = propriedades.playlists[playlistName];
-                console.log(playlistName)
-                console.log(videos);
+                //console.log(playlistName)
+                //console.log(videos);
                 return (
-                    <section>
+                    <section key={playlistName}>
                         <h2>{playlistName}</h2>
                         <div>
                             {videos.filter((video) => {
@@ -92,7 +96,7 @@ function HomePage() {
                             })
                             .map((video) => {
                                 return (
-                                    <a href={video.url}>
+                                    <a key={video.url} href={video.url}>
                                         <img src={video.thumb} />
                                         <span>
                                             {video.title}
