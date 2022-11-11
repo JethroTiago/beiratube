@@ -24,10 +24,11 @@ Trata-se de uma versão alternativa do canal Beira da Aventura do YouTube, onde 
 
 Este projeto me proporcionou desenvolver novas habilidades e reforçar meus conhecimentos técnicos em:
 
+- Next.js
 - JSX
 - States
-- Props, render e o lifecycle
-- Next.js
+- Props, render e o 
+- themeProvider
 
 ## Agradecimentos
 
