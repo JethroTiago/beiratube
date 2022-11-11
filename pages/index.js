@@ -6,9 +6,6 @@ import Menu from "../src/components/Menu"
 import { StyledTimeline } from "../src/components/Timeline"
 
 function HomePage() {
-    const estiloDaHomePage = { 
-        //backgroundColor: "red"
-    };
     const [valorDoFiltro, setValorDoFiltro] = React.useState("");
     
     return (
