@@ -43,7 +43,7 @@ export default function DarkModeSwitch() {
   return (
     <StyledSwitch>
       <input id="darkmode" type="checkbox" onChange={() => {
-        contexto,toggleMode();
+        contexto, toggleMode();
     }} />
       <label
         htmlFor="darkmode"
