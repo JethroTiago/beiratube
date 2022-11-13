@@ -3,7 +3,7 @@ import React from "react";
 export const ColorModeContext = React.createContext({
     mode: "",
     setMode: () => { alert("Set me first") },
-    toggleMode: () => { alert("Set me first") }
+    toggleMode: () => { alert("Set me first") },
 });
 
 export default function ColorModeProvider(props) {

@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { ColorModeContext } from "./ColorMode";
 
-
 const StyledSwitch = styled.div`
   background-color: #333333;
   border: 0;
@@ -43,6 +42,7 @@ export default function DarkModeSwitch() {
   return (
     <StyledSwitch>
       <input id="darkmode" type="checkbox" onChange={() => {
+        console.log("Mudou o state");
         contexto, toggleMode();
     }} />
       <label
