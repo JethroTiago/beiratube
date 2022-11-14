@@ -29,6 +29,7 @@ Este projeto me proporcionou desenvolver novas habilidades e reforçar meus conh
 - States
 - Props, render e o 
 - themeProvider
+- Database com Supabase
 
 ## Agradecimentos
 

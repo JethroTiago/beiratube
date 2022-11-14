@@ -21,6 +21,8 @@ function useForm(propsDoForm) {
     };
 }
 
+const supabase = createClient('https://xyzcompany.supabase.co', 'public-anon-key')
+
 export default function RegisterVideo() {
     const formCadastro = useForm({
         initialValues: { titulo: "Alagoas", url: "https://youtube.com" }
