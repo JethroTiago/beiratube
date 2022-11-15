@@ -7,7 +7,7 @@ http://beiratube.vercel.app/
 
 ### Visualização do Projeto
 
--- soon --
+![beiratubprint](https://user-images.githubusercontent.com/103612874/201820439-43aa518b-db63-4243-83cb-c21cb3d845cd.jpg)
 
 ## Como Funciona
 
@@ -25,9 +25,9 @@ Trata-se de uma versão alternativa do canal Beira da Aventura do YouTube, onde 
 Este projeto me proporcionou desenvolver novas habilidades e reforçar meus conhecimentos técnicos em:
 
 - Next.js
-- JSX
 - States
-- Props, render e o 
+- Props
+- DarkMode
 - themeProvider
 - Database com Supabase
 
