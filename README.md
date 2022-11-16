@@ -1,5 +1,5 @@
 # beiratube
-Versão adaptada do canal Beira da Aventura do youtube, desenvolvido durante a Imersão <strong>REACT</strong> da <strong>Alura</strong>
+Versão adaptada do canal Beira da Aventura do <strong>YouTube</strong>, desenvolvido durante a Imersão <strong>REACT</strong> da <strong>Alura</strong>
 
 ### Deploy
 
@@ -26,7 +26,12 @@ Este projeto me proporcionou desenvolver novas habilidades e reforçar meus conh
 
 - Next.js
 - States
+<<<<<<< HEAD
 - Props 
+=======
+- Props
+- DarkMode
+>>>>>>> e030e80a8c55951d0795e04113c2d251c4a7b707
 - themeProvider
 - Database com Supabase
 
