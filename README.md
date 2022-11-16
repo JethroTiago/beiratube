@@ -7,7 +7,7 @@ http://beiratube.vercel.app/
 
 ### Visualização do Projeto
 
-![beiratubprint](https://user-images.githubusercontent.com/103612874/201820439-43aa518b-db63-4243-83cb-c21cb3d845cd.jpg)
+![beiratubprintfinal](https://user-images.githubusercontent.com/103612874/202185212-de9b4430-1473-4927-a5d1-db8323e273cb.jpg)
 
 ## Como Funciona
 
