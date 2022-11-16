@@ -6,13 +6,14 @@ const StyledSearch = styled.div`
   flex-direction: row;
   border: 1px solid ${({ theme }) => theme.borderBase};
   max-width: 425px;
+  margin-left: 10px;
   width: 100%;
   border-radius: 2px;
   overflow: hidden;
   
   input {
     width: 80%;
-    padding: 4px 6px;
+    padding: 10px 10px;
     border: none;
     outline: none;
     color: ${({ theme }) => theme.textColorBase};

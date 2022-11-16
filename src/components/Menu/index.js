@@ -17,13 +17,13 @@ const StyledMenu = styled.header`
   .full-logo {
         display: flex;
         align-items: center;
-        gap: .3rem;
+        gap: .1rem;
   }
   .logo {
-    width: 100%;
+    width: 80%;
     max-width: 40px;
-    @media (min-width: 600px) {
-      max-width: 50px;
+    @media (max-width: 670px) {
+      max-width: 20px;
     }
     .text {
         color: ${({ theme }) => theme.textColorBase || "#222222"};
