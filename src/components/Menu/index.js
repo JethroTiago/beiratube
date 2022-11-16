@@ -14,14 +14,22 @@ const StyledMenu = styled.header`
   gap: 16px;
   position: fixed;
   width: 100%;
+  .full-logo {
+        display: flex;
+        align-items: center;
+        gap: .3rem;
+  }
   .logo {
     width: 100%;
-    max-width: 80px;
+    max-width: 40px;
     @media (min-width: 600px) {
-      max-width: 127px;
+      max-width: 50px;
     }
     .text {
-      fill: ${({ theme }) => theme.textColorBase || "#222222"};
+        color: ${({ theme }) => theme.textColorBase || "#222222"};
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-top: .2rem;
     }
   }
 `;
@@ -29,8 +37,9 @@ const StyledMenu = styled.header`
 export default function Menu({ valorDoFiltro, setValorDoFiltro }) {
         return (
                 <StyledMenu>
-                        <div>
+                        <div className="full-logo">
                                 <Logo />
+                                <h2 className="text">beira<strong>Tube</strong></h2>
                         </div>
                         <Search valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
                         <DarkModeSwitch />
@@ -40,6 +49,6 @@ export default function Menu({ valorDoFiltro, setValorDoFiltro }) {
 
 function Logo() {
   return (
-        <img src="./public/beiratubelogo.png" alt="BeiraTube Logo" className="logo" />
+        <img className="logo" src="https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-5-2.png" />
   )
 }
