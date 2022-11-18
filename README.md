@@ -26,12 +26,8 @@ Este projeto me proporcionou desenvolver novas habilidades e reforçar meus conh
 
 - Next.js
 - States
-<<<<<<< HEAD
 - Props 
-=======
-- Props
 - DarkMode
->>>>>>> e030e80a8c55951d0795e04113c2d251c4a7b707
 - themeProvider
 - Database com Supabase
 
