@@ -1,5 +1,5 @@
 # beiratube
-Versão adaptada do canal Beira da Aventura do <strong>YouTube</strong>, desenvolvido durante a Imersão <strong>REACT</strong> da <strong>Alura</strong>
+Versão adaptada do canal Beira da Aventura do <strong>YouTube</strong>, desenvolvido durante a Imersão <strong>REACT</strong> da <strong>Alura</strong> (2022)
 
 ### Deploy
 
